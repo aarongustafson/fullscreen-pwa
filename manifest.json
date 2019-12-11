@@ -26,6 +26,11 @@
       "src": "/i/icon-32.png",
       "type": "image/png",
       "sizes": "32x32"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/ico",
+      "sizes": "16x16,32x32,48x48x64x64,128x128"
     }
   ]
 }
