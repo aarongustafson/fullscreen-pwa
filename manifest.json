@@ -13,9 +13,9 @@
   "related_applications": [],
   "prefer_related_applications": false,
   "icons": [{
-      "src": "/i/icon-540.png",
+      "src": "/i/icon-520.png",
       "type": "image/png",
-      "sizes": "540x540"
+      "sizes": "520x520"
     },
     {
       "src": "/i/icon-72.png",
