@@ -16,6 +16,9 @@ self.addEventListener('install', installEvent => {
 
 self.addEventListener('fetch', fetchEvent => {
   const request = fetchEvent.request;
+
+  if ( /^chrome\-extension/.test(request.url) ) { return; }
+  
   fetchEvent.respondWith(
     caches.open(staticCacheName).then(function(cache) {
       return fetch(fetchEvent.request)
